@@ -22,11 +22,13 @@ public class TiposVariaveis {
 		float pi = 3.14F;
 		double salario = 1412.0;
 
-        /* Java é fortemente tipado!
+        // Java é fortemente tipado!
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
-        short numeroCurto2 = numeroNormal;
-        */
+        short numeroCurto2 = (short) numeroNormal;
 
+        // Constantes usar final e está variável deverá ser escrita toda em caixa alta
+        final double VALOR_DE_PI = 3.14;
+        
     }
 }
